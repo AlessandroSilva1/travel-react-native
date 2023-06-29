@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "travel-advisor-yt",
-    "slug": "travel-advisor-yt",
+    "name": "travel-react",
+    "slug": "travel-react",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icons.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/restaurants.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },

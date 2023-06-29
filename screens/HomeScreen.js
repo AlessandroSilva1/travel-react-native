@@ -21,28 +21,20 @@ const HomeScreen = () => {
   }, []);
 
   return (
-    <SafeAreaView className="bg-white flex-1 relative">
+    <SafeAreaView className="bg-white flex-1 relative pt-5">
       {/* First Section */}
 
       <View className="flex-row px-6 mt-8 items-center space-x-2">
-        <View className="w-16 h-16 bg-black rounded-full items-center justify-center">
-          <Text className="text-[#00BCC9] text-3xl font-semibold">Go</Text>
-        </View>
 
-        <Text className="text-[#2A2B4B] text-3xl font-semibold">Travel</Text>
+        <Text className="text-[#2A2B4B] text-3xl font-semibold">Traveler</Text>
       </View>
 
       {/* Second Section */}
       <View className="px-6 mt-8 space-y-3">
-        <Text className="text-[#3C6072] text-[42px]">Enjoy the trip with</Text>
-        <Text className="text-[#00BCC9] text-[38px] font-bold">
-          Good Moments
-        </Text>
+        <Text className="text-[#3C6072] text-[30px]">Sua viagem no melhor lugar</Text>
+        
 
-        <Text className="text-[#3C6072] text-base">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti odio
-          quis nostrum
-        </Text>
+       
       </View>
 
       {/* Circle Section */}
@@ -68,7 +60,7 @@ const HomeScreen = () => {
             iterationCount={"infinite"}
             className="w-20 h-20 items-center justify-center rounded-full bg-[#00BCC9]"
           >
-            <Text className="text-gray-50 text-[36px] font-semibold">Go</Text>
+            <Text className="text-gray-50 text-[20px] font-semibold">Entrar</Text>
           </Animatable.View>
         </TouchableOpacity>
       </View>
